@@ -7,6 +7,8 @@ public class TraceId {
     private String id;
     private int level;
 
+
+
     public TraceId() {
         this.id = createId();
         this.level = 0;
