@@ -22,6 +22,8 @@ public class HelloTraceV1 {
                 traceId.getLevel()), message);
         return new TraceStatus(traceId, startTimeMs, message);
     }
+
+
     public void end(TraceStatus status) {
         complete(status, null);
     }
