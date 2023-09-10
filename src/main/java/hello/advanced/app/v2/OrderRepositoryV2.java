@@ -19,6 +19,8 @@ public class OrderRepositoryV2 {
         try {
             status = trace.beginSync(traceId ,"OrderRepository.save()");
 
+
+
             //저장 로직
             if(itemId.equals("ex")){
                 throw new IllegalArgumentException("예외 발생!");
