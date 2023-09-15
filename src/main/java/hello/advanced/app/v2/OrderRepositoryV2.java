@@ -24,6 +24,8 @@ public class OrderRepositoryV2 {
                 throw new IllegalArgumentException("예외 발생!");
             }
 
+
+
             sleep(1000);
             trace.end(status);
         }catch (Exception e){
