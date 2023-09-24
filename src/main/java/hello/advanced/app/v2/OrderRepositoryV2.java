@@ -22,6 +22,10 @@ public class OrderRepositoryV2 {
 
 
 
+
+
+
+
             //저장 로직
             if(itemId.equals("ex")){
                 throw new IllegalArgumentException("예외 발생!");
