@@ -14,8 +14,11 @@ public class OrderRepositoryV2 {
     private final HelloTraceV2 trace;
 
     public void save(TraceId traceId, String itemId){
+
+
         TraceStatus status = null;
         try {
+
             status = trace.beginSync(traceId ,"OrderRepository.save()");
 
             //저장 로직
