@@ -8,6 +8,8 @@ public class Test {
 
 
         for(j = 0, i = 0; i <=5; i++){
+
+
             j+= i;
             System.out.print(i);
             if(i == 5){
