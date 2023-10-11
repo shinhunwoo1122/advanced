@@ -6,9 +6,6 @@ public class Test {
 
 
 
-
-
-
         int j, i;
         for(j = 0, i = 0; i <=5; i++){
 
