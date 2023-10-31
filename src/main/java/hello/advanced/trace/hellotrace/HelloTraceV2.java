@@ -17,6 +17,10 @@ public class HelloTraceV2 {
 
 
 
+
+
+
+
     public TraceStatus begin(String message) {
         TraceId traceId = new TraceId();
         Long startTimeMs = System.currentTimeMillis();
