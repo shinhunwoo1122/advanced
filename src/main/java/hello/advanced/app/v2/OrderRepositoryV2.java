@@ -12,9 +12,6 @@ import org.springframework.stereotype.Repository;
 public class OrderRepositoryV2 {
 
     private final HelloTraceV2 trace;
-
-
-
     public void save(TraceId traceId, String itemId){
 
 
