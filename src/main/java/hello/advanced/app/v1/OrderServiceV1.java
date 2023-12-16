@@ -17,9 +17,6 @@ public class OrderServiceV1 {
 
 
 
-
-
-
     public void orderItem(String itemId){
 
         TraceStatus status = null;
