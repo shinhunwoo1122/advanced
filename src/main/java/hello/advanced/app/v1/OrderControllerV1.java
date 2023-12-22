@@ -15,10 +15,6 @@ public class OrderControllerV1 {
     private final HelloTraceV1 trace;
 
 
-
-
-
-
     @GetMapping("/v1/request")
     public String request(String itemId){
 
