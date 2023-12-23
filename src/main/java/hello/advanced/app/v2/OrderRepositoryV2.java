@@ -15,6 +15,8 @@ public class OrderRepositoryV2 {
     public void save(TraceId traceId, String itemId){
 
 
+
+
         TraceStatus status = null;
 
         try {
@@ -24,7 +26,6 @@ public class OrderRepositoryV2 {
             //저장 로직
             if(itemId.equals("ex")){
                 throw new IllegalArgumentException("예외 발생!");
-
 
             }
 
