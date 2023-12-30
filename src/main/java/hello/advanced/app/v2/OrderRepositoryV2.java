@@ -16,9 +16,6 @@ public class OrderRepositoryV2 {
 
         TraceStatus status = null;
 
-
-
-
         try {
 
             status = trace.beginSync(traceId ,"OrderRepository.save()");
