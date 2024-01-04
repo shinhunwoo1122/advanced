@@ -11,8 +11,6 @@ import org.springframework.stereotype.Component;
 @Component
 public class HelloTraceV2 {
 
-
-
     private static final String START_PREFIX = "-->";
     private static final String COMPLETE_PREFIX = "<--";
     private static final String EX_PREFIX = "<X-";
