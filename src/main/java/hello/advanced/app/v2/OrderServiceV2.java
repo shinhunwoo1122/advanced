@@ -15,8 +15,6 @@ public class OrderServiceV2 {
     private final HelloTraceV2 trace;
 
 
-
-
     public void orderItem(TraceId traceId, String itemId){
 
         TraceStatus status = null;
