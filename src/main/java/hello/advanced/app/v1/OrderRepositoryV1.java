@@ -12,9 +12,6 @@ public class OrderRepositoryV1 {
     private final HelloTraceV1 trace;
     public void save(String itemId){
         TraceStatus status = null;
-
-
-
         try {
             status = trace.begin("OrderRepository.save()");
 
