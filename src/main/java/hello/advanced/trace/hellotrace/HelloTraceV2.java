@@ -17,6 +17,9 @@ public class HelloTraceV2 {
     private static final String COMPLETE_PREFIX = "<--";
     private static final String EX_PREFIX = "<X-";
 
+
+
+
     public TraceStatus begin(String message) {
         TraceId traceId = new TraceId();
         Long startTimeMs = System.currentTimeMillis();
@@ -24,6 +27,9 @@ public class HelloTraceV2 {
                 traceId.getLevel()), message);
         return new TraceStatus(traceId, startTimeMs, message);
     }
+
+
+
 
     //V2에서 추가
     public TraceStatus beginSync(TraceId beforeTraceId, String message) {
