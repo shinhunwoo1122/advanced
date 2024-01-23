@@ -12,6 +12,8 @@ import org.springframework.web.bind.annotation.RestController;
 @RequiredArgsConstructor
 public class OrderControllerV2 {
 
+
+
     private final OrderServiceV2 orderService;
     private final HelloTraceV2 trace;
 
