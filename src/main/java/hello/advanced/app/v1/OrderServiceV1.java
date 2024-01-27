@@ -10,8 +10,6 @@ import org.springframework.stereotype.Service;
 @RequiredArgsConstructor
 public class OrderServiceV1 {
 
-
-
     private final OrderRepositoryV1 orderRepository;
     private final HelloTraceV1 trace;
 
