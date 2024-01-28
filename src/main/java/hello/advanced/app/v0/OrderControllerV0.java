@@ -8,7 +8,6 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 @RequiredArgsConstructor
 public class OrderControllerV0 {
-
     private final OrderServiceV0 orderService;
 
     @GetMapping("/v0/request")
